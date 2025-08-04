@@ -5,7 +5,7 @@ import { toast } from 'sonner';
 const Contact = () => {
   const handleDownloadCV = () => {
   const link = document.createElement('a');
-  link.href = '/MuzaffarAmeenCV.pdf';         // Must match the file name exactly
+  link.href = '/assets/MuzaffarAmeenCV.pdf';         // Must match the file name exactly
   link.download = 'MuzaffarAmeenCV.pdf';      // Downloaded file name
   document.body.appendChild(link);            // Required for some browsers
   link.click();
